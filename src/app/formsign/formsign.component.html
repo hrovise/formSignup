@@ -1,0 +1,16 @@
+<div class="container">
+
+    <form [formGroup]="signUpForm">
+        <div class="form-group">
+            <label class="label_password">Password</label>
+            <input id="password" minlength="8" formControlName="password" type="password" placeholder="">
+        </div>
+        <div class="container_group">
+        <label id="weak" class="label"  for = 'password'></label>
+        <label id="medium"  class="label" for = 'password'></label>
+        <label id="strong"  class="label" for = 'password'></label>
+      
+        </div>
+       
+    </form>
+</div>
