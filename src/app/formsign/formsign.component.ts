@@ -62,7 +62,7 @@ export class FormsignComponent implements OnInit{
       weakId.classList.add('redClass')
       strongId.classList.add('redClass')};
 
-    return null;
+    return {'invalid':true};
     
    }
  
@@ -96,7 +96,7 @@ export class FormsignComponent implements OnInit{
      
      if(weakId) weakId.classList.add('redClass') ;
     
-     return {'valid':true};
+     return null;
     }
     case 'MEDIUM': {
      
@@ -105,7 +105,7 @@ export class FormsignComponent implements OnInit{
       weakId.classList.add('yellowClass')}
      
       
-      return {'valid':true};
+      return null;
      }  
      case 'STRONG': {
      
@@ -113,7 +113,7 @@ export class FormsignComponent implements OnInit{
       mediumId.classList.add('greenClass');
       weakId.classList.add('greenClass')
       strongId.classList.add('greenClass')};
-      return {'valid':true};
+      return null;
       } 
      
       
@@ -123,7 +123,7 @@ export class FormsignComponent implements OnInit{
     }
  
   
-    return null;
+    return {'invalid':true};
     }
    
   
