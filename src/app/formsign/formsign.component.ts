@@ -37,7 +37,7 @@ export class FormsignComponent implements OnInit{
    const SYMBOLS=REGEX_ONLY_SYMBOLS.test(control.value);
    const DIGITS=REGEX_ONLY_DIGITS.test(control.value);
    const LETTERS=REGEX_ONLY_LETTERS.test(control.value);
-   console.log(SYMBOLS)
+   
 
    let sizePassword='';
 
